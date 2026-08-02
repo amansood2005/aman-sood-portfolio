@@ -105,7 +105,7 @@ export const projects = [
     tech: ["JavaScript", "HTML/CSS", "Node.js", "REST APIs", "Express"],
     description:
       "Responsive storefront with catalog, cart, and checkout flows — REST API integration, clean request/response handling, and performance-minded DOM updates.",
-    live: null,
+    live: "https://ecommerce-web-app-ebon.vercel.app",
     code: "https://github.com/amansood2005/ecommerce-web-app",
     accent: "mint",
   },
