@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Figtree, Syne } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { Analytics } from "@vercel/analytics/next";
 
 const display = Syne({
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function RootLayout({
           <div className="atmosphere" aria-hidden />
           <div className="site">{children}</div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
