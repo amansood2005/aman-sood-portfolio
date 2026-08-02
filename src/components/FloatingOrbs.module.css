@@ -1,0 +1,53 @@
+.wrap {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.45;
+}
+
+.a {
+  width: 28vw;
+  height: 28vw;
+  max-width: 420px;
+  max-height: 420px;
+  top: 12%;
+  right: -6%;
+  background: radial-gradient(circle, var(--glow), transparent 70%);
+}
+
+.b {
+  width: 22vw;
+  height: 22vw;
+  max-width: 320px;
+  max-height: 320px;
+  bottom: 18%;
+  left: -4%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 35%, transparent), transparent 70%);
+  opacity: 0.35;
+}
+
+.c {
+  width: 18vw;
+  height: 18vw;
+  max-width: 260px;
+  max-height: 260px;
+  top: 55%;
+  right: 18%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--ink) 12%, transparent), transparent 70%);
+  opacity: 0.25;
+}
+
+@media (max-width: 768px) {
+  .orb {
+    opacity: 0.28;
+    filter: blur(30px);
+  }
+}

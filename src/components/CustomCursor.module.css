@@ -1,0 +1,44 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: -0.35rem 0 0 -0.35rem;
+  border-radius: 50%;
+  background: var(--cursor);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transition: width 0.2s ease, height 0.2s ease, margin 0.2s ease,
+    box-shadow 0.2s ease, background 0.2s ease;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.hover {
+  width: 2.6rem;
+  height: 2.6rem;
+  margin: -1.3rem 0 0 -1.3rem;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--cursor) 55%, transparent);
+  background: transparent;
+  border: 1.5px solid var(--cursor);
+}
+
+.trail {
+  position: fixed;
+  z-index: 99;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  pointer-events: none;
+  mix-blend-mode: plus-lighter;
+  transition: opacity 0.25s ease;
+}
+
+@media (max-width: 960px) {
+  .cursor,
+  .trail {
+    display: none;
+  }
+}
