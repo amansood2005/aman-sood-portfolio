@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open [[http://localhost:3000](http://localhost:3000).](https://aman-sood-portfolio-git-vercel-react-server-co-f43ca8-aman-a524.vercel.app).
+Open (https://aman-sood-portfolio-git-vercel-react-server-co-f43ca8-aman-a524.vercel.app).
 
 ## Customize
 
