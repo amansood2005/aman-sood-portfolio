@@ -80,6 +80,16 @@ export const skillGroups = [
 
 export const projects = [
   {
+    name: "CareCost Insights",
+    subtitle: "Hospital Cost, Quality & Utilization Analytics",
+    tech: ["Python", "Pandas", "Excel", "Streamlit", "SQL-ready"],
+    description:
+      "Analytics workflow over 2,400 synthetic hospital encounters across 4 facilities — peer cost benchmarks, LOS/readmission/quality KPIs, opportunity sizing, Excel workbook outputs, and an interactive Streamlit dashboard for stakeholder walkthroughs.",
+    live: null,
+    code: "https://github.com/amansood2005/CareCost-Insights",
+    accent: "violet",
+  },
+  {
     name: "E32Log",
     subtitle: "Real-Time Vehicle Telemetry & OBD-II Logger",
     tech: ["C++", "Python", "ESP32", "OBD-II", "Embedded"],

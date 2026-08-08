@@ -16,7 +16,7 @@ export function About() {
       </div>
 
       <div className={styles.stats}>
-        <Counter value={3} suffix="+" label="Shipped projects" className={styles.stat} />
+        <Counter value={4} suffix="+" label="Shipped projects" className={styles.stat} />
         <Counter value={1000} suffix="+" label="Telemetry records" className={styles.stat} />
         <Counter value={4} label="Years at PEC" className={styles.stat} />
       </div>
